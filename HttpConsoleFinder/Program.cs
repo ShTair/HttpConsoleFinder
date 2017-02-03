@@ -12,6 +12,7 @@ namespace HttpConsoleFinder
         static void Main(string[] args)
         {
             Search().Wait();
+            Console.WriteLine("Finished");
             Console.ReadLine();
         }
 
